@@ -41,10 +41,14 @@ Los cursos de aprendeR enfatizan la importancia del aprendizaje de los estudiant
 
 El programa inicia con `aprendeR ()`. Las funciones que controlan el comportamiento de los cursos de aprendeR son `bye ()` para salir, `skip ()` para saltar una pregunta, `main ()` para volver al menú principal, `play ()` para permitir la experimentación en la consola R sin interferencias de aprendeR, `nxt ()` para reanudar la interacción con aprendeR, e `info ()` para mostrar un menú de ayuda.
 
+## Prerrequisitos
+
+Para acceder a este curso debes tener instalado R, y preferiblemente RStudio, así como el paquete swirl y swirlify.
+
 
 ## Instalación de remolino (desde CRAN)
 
-La forma más sencilla de instalar y ejecutar <*aprendeR*> es escribiendo lo siguiente desde la consola R:
+La forma más sencilla de instalar y ejecutar <b>aprendeR</b> es escribiendo lo siguiente desde la consola R:
 
 ¡Bienvenido!
 Install.packages ("swirl")
