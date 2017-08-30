@@ -29,9 +29,9 @@ Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo
 <cite> He de comentar que estos cursos siguen el diseño del paquete <b>swirl</b> y <b>swirlify</b>, por lo que agradecemos el esfuerzo realizado por todo el equipo de <b>Swirl Coder's</b>. </cite>
 
 
-```
-De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos.
-```
+
+    De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos.
+
 
 De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos.
 
@@ -64,7 +64,7 @@ Espero que con el transcurso del tiempo a medida que se sigan agregando nuevas c
 
 ## Instalando la última versión de desarrollo (desde GitHub)
 
-Esperamos que muy pronto pueda acceder a las funciones y contenido más recientes, mediante la instalación y ejecución de la versión de desarrollo de <b>aprendeR</b> utilizando el paquete [devtools (https://github.com/hadley/devtools):
+Esperamos que muy pronto pueda acceder a las funciones y contenido más recientes, mediante la instalación y ejecución de la versión de desarrollo de <b>aprendeR</b> utilizando el paquete [devtools] (https://github.com/hadley/devtools):
 
 ```
 Install.packages("devtools")
