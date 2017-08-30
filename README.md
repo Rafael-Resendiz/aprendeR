@@ -52,12 +52,66 @@ Para acceder a este curso debes tener instalado <b>R</b>, pero, será mucho mejo
 La forma más sencilla de instalar y ejecutar <b>aprendeR</b> es escribiendo lo siguiente desde la consola de R:
 
 ```
-Install.packages("aprendeR")
+Install.packages("aprendeR", dependencies= TRUE)
 library(aprendeR)
 aprendeR()
 ```
 
 Espero que con el transcurso del tiempo a medida que se sigan agregando nuevas características y contenido, se vayan creando nuevas versiones disponibles en CRAN según sea el caso (lo más probable es que esto pasará en periodos trimestrales).
+
+
+## Instalar lecciones desde aprendeR
+
+1) Ingresa los siguientes comandos en la consola de R:
+
+```
+library(aprendeR)
+install_course_github("aprendeR", "aprendeR")
+```
+
+
+
+## Instalar lecciones manualmente
+
+1) Presiona sobre el botón **Download ZIP** que se encuentra del lado superior derecho de esta página.
+
+2) Ingresa los siguientes comandos en la consola de R, **sustituyendo la ruta correcta** de tu archivo descargado:
+
+```
+library(aprendeR)
+install_course_zip("ruta/al/archivo/descargado/aprendeR.zip")
+```
+
+## Después de la instalación en Mac OS.
+
+Una vez instalado el curso, cada vez que desees acceder a las prácticas debes ingresar:
+
+```
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
+aprendeR()
+```
+
+Después debers seguir las instrucciones y seleccionar el curso "aprendeR".
+
+```Sys.setlocale("LC_ALL", "en_US.UTF-8")``` te permitirá ver los acentos y carácteres especiales del español.
+
+
+
+## Después de la instalación en Windows y Linux
+
+Una vez instalado el curso, cada vez que desees acceder a las prácticas debes ingresar:
+
+```
+aprendeR()
+```
+
+después seguir las instrucciones y seleccionar el curso "aprendeR".
+
+
+## Desinstalar el curso
+
+Si te deseas desinstalar el curso, puedes usar `uninstall_course("aprendeR")` en cualquier momento.
+
 
 ## Instalando la última versión de desarrollo (desde GitHub)
 
@@ -78,8 +132,11 @@ Si desea participar, guarde este repositorio y realiza una nueva versión con tu
 
 Esperamos que los instructores hispano-parlantes de todo el mundo contribuyan para mejorar esta inicativa, no solamente usando <b>aprendeR</b> en sus aulas, sino también creando ms cursos en la bella lengua de Cervantes, engrosando la lista de <acronym> "OSLaR Coders" </acronym> (Open Source Latinoamerican R Coders). 
 
+```
 Condidero que este es un proyecto impresionantemente ambicioso, pero posible. 
+```
 
 Si usted es un instructor, por favor no dude en hacer lo mismo - de forma gratuita. Es decir, que aun cuando no estoy en contra de que sus estudiantes paguen para tomar un curso sobre R, aprender sobre algún contenido de índole computacional o matemático, o simplemente asistir a su institución, le exhorto que no cobre a las personas ***directamente*** por el uso de este software o contenido educativo, así como de otros similares.
 
-Si no está seguro acerca de un caso de uso en particular, no dude en enviarme un correo electrónico a rafael.resendiz@uabc.edu.mx.
+Si no está seguro acerca de un caso de uso en particular, no dude en enviarme un correo electrónico a:
+rafael.resendiz@uabc.edu.mx.
