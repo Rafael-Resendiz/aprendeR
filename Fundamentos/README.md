@@ -1,4 +1,4 @@
-# aprendeR
+# aprendeR / Fundamentos
 
 [![Build Status](https://unim.mx.png?branch=master)](https://unim.mx/aprendeR/aprendeR)
 [![CRAN version](http://www.r-pkg.org/badges/version/aprendeR?color=3399ff)](https://cran.r-project.org/package=aprendeR)
