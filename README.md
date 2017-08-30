@@ -29,11 +29,8 @@ Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo
 <cite> He de comentar que estos cursos siguen el diseño del paquete <b>swirl</b> y <b>swirlify</b>, por lo que agradecemos el esfuerzo realizado por todo el equipo de <b>Swirl Coder's</b>. </cite>
 
 
-
    De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos.
 
-
-De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos.
 
 Durante el curso se puede solicitar a un estudiante que vea un video, que responda a una pregunta de opción múltiple, que llene los espacios en blanco, o bien, que ingrese datos o comandos en la consola R exactamente como si estuviera usando R en la práctica. El énfasis está en estas últimas opciones, ya que mediante la interacción con la consola R, se comprueba la certeza de las respuestas de los usuarios y se dan sugerencias si es apropiado.
 
@@ -41,7 +38,7 @@ El progreso del usuario se guarda automáticamente para que pueda salir de la pl
 
 Los cursos de <b>aprendeR</b> enfatizan la importancia del aprendizaje de los estudiantes de R, mediante e ejercitar el uso frecuente y directo de la consola de R. Se proveerá de un mecanismo de retorno de llamada, que fue sugerido y demostrado por primera vez para este propósito por Hadley Wickham, por medio de dicho mecanismo, se capturará la opinión de los estudiantes, para proporcionar una retroalimentación inmediata relevante para mejorar el material del curso actual.
 
-[enseñaR] (https://github.com/Rafael-Resendiz/enseñaR) es un paquete R independiente que proporciona una caja de herramientas completa para los instructores de cursos en R. El contenido está escrito en [YAML] (http://en.wikipedia.org/wiki/YAML) utilizando las útiles herramientas descritas en la página [instructores] (http://unim.mx/aprendeR/instructoR.html) de nuestro sitio web.
+[enseñaR](https://github.com/Rafael-Resendiz/enseñaR) es un paquete R independiente que proporciona una caja de herramientas completa para los instructores de cursos en R. El contenido está escrito en [YAML](http://en.wikipedia.org/wiki/YAML) utilizando las útiles herramientas descritas en la página [instructoR](http://unim.mx/aprendeR/instructoR.html) de nuestro sitio web.
 
 El programa inicia con `aprendeR ()`. Las funciones que controlan el comportamiento de los cursos de aprendeR son `bye ()` para salir, `skip ()` para saltar una pregunta, `main ()` para volver al menú principal, `play ()` para permitir la experimentación en la consola R sin interferencias de aprendeR, `nxt ()` para reanudar la interacción con aprendeR, e `info ()` para mostrar un menú de ayuda.
 
