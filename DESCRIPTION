@@ -1,0 +1,30 @@
+Package: aprendeR
+Title: aprendeR R en R
+Description: Utilizar la consola de R como un entorno de aprendizaje interactivo. 
+             Los usuarios recibirán retoalimentación inmediata y serán guiados a traves de las mismas lecciones 
+             tanto en programación en R, como, en ciencias de datos.
+URL: http://unim.mx/aprendeR/
+Version: 2.4.3
+License: GNU
+Authors@R: c(
+    person("Rafael", "Reséndiz Ramírez", email = "rafael.resendiz@uabc.edu.mx", role = c("aut", "cre")),
+    person("Juan Gabriel", "López Hernández", role = "aut"),
+    person("X", "XX", role = "ctb")
+    )
+Depends:
+    R (>= 3.4.1)
+Imports:
+    stringr,
+    testthat (>= 1.0.2),
+    httr (>= 1.1.0),
+    yaml,
+    RCurl,
+    digest,
+    tools,
+    methods
+Suggests:
+    stringi
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 5.0.1
