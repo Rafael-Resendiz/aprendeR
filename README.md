@@ -66,7 +66,7 @@ Espero que con el transcurso del tiempo a medida que se sigan agregando nuevas c
 
 ```
 library(aprendeR)
-install_course_github("aprendeR", "aprendeR")
+install_course_github("aprendeR", "Fundamentos")
 ```
 
 
@@ -119,7 +119,7 @@ Esperamos que muy pronto pueda acceder a las funciones y contenido más reciente
 
 ```
 Install.packages("devtools")
-Devtools :: install_github("aprendeR", ref = "dev")
+Devtools::install_github("aprendeR", ref = "dev")
 library(aprendeR)
 aprendeR()
 ```
@@ -130,13 +130,13 @@ Si desea participar, guarde este repositorio y realiza una nueva versión con tu
 
 ## Utilizar aprendeR en el aula
 
-Esperamos que los instructores hispano-parlantes de todo el mundo contribuyan para mejorar esta inicativa, no solamente usando <b>aprendeR</b> en sus aulas, sino también creando ms cursos en la bella lengua de Cervantes, engrosando la lista de <acronym> "OSLaR Coders" </acronym> (Open Source Latinoamerican R Coders). 
+Esperamos que los instructores hispano-parlantes de todo el mundo contribuyan para mejorar esta inicativa, no solamente usando <b>aprendeR</b> en sus aulas, sino también creando más cursos en la bella lengua de Cervantes, engrosando la lista de <acronym> "OSLaR Coders" </acronym> (Open Source Latinoamerican R Coders). 
 
 ```
 Condidero que este es un proyecto impresionantemente ambicioso, pero posible. 
 ```
 
-Si usted es un instructor, por favor no dude en hacer lo mismo - de forma gratuita. Es decir, que aun cuando no estoy en contra de que sus estudiantes paguen para tomar un curso sobre R, aprender sobre algún contenido de índole computacional o matemático, o simplemente asistir a su institución, le exhorto que no cobre a las personas ***directamente*** por el uso de este software o contenido educativo, así como de otros similares.
+Si usted es un instructor, por favor no dude en hacer lo mismo - generar recursos gratuitos. Es decir, que aun cuando no estoy en contra de que sus estudiantes paguen para tomar un curso sobre R, aprender sobre algún contenido de índole computacional o matemático, o simplemente asistir a su institución, le exhorto que no cobre a las personas ***directamente*** por el uso de este software o contenido educativo, así como de otros similares.
 
 Si no está seguro acerca de un caso de uso en particular, no dude en enviarme un correo electrónico a:
 rafael.resendiz@uabc.edu.mx.
