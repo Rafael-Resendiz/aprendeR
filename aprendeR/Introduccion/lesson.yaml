@@ -1,0 +1,10 @@
+- Class: meta
+  Course: aprendeR
+  Lesson: Introduccion
+  Author: Rafael Resendiz Ramirez
+  Type: Standard
+  Organization: Open Source Latinoamerican R Coders (OSLaR Coders)
+  Version: 2.4.3
+
+- Class: text
+  Output: Type your text output here.
