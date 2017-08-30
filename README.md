@@ -29,9 +29,9 @@ Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo
 <cite> He de comentar que estos cursos siguen el diseño del paquete <b>swirl</b> y <b>swirlify</b>, por lo que agradecemos el esfuerzo realizado por todo el equipo de <b>Swirl Coder's</b>. </cite>
 
 
-De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos. 
+<cite> De la misma manera, <b>aprendeR</b> pretende convertirse en una plataforma tanto para aprender, como para enseñar algunas cuestiones sobre fundamentos y principios báscios de matemáticas y de la programación en R de manera simultánea e interactiva. Para ello, se ha dispuesto una selección de cursos, que contemplan diversas lecciones, para que cualquier profesor pueda actuar interactivamente como tutor de un estudiante a través de ellos. </cite>
 
-<q> Durante el curso se puede solicitar a un estudiante que vea un video, que responda a una pregunta de opción múltiple, que llene los espacios en blanco, o bien, que ingrese datos o comandos en la consola R exactamente como si estuviera usando R en la práctica. El énfasis está en estas últimas opciones, ya que mediante la interacción con la consola R, se comprueba la certeza de las respuestas de los usuarios y se dan sugerencias si es apropiado. </q>
+Durante el curso se puede solicitar a un estudiante que vea un video, que responda a una pregunta de opción múltiple, que llene los espacios en blanco, o bien, que ingrese datos o comandos en la consola R exactamente como si estuviera usando R en la práctica. El énfasis está en estas últimas opciones, ya que mediante la interacción con la consola R, se comprueba la certeza de las respuestas de los usuarios y se dan sugerencias si es apropiado.
 
 El progreso del usuario se guarda automáticamente para que pueda salir de la plataforma cuando el mismo usuario lo considere necesario, sin que ello sea obstáculo para que más tarde pueda reanudar sus lecciones sin perder el trabajo.
 
@@ -51,8 +51,8 @@ Para acceder a este curso debes tener instalado <b>R</b>, pero, será mucho mejo
 La forma más sencilla de instalar y ejecutar <b>aprendeR</b> es escribiendo lo siguiente desde la consola de R:
 
 ```
-Install.packages ("aprendeR")
-library (aprendeR)
+Install.packages("aprendeR")
+library(aprendeR)
 aprendeR()
 ```
 
@@ -63,9 +63,9 @@ Espero que con el transcurso del tiempo a medida que se sigan agregando nuevas c
 Esperamos que muy pronto pueda acceder a las funciones y contenido más recientes, mediante la instalación y ejecución de la versión de desarrollo de <b>aprendeR</b> utilizando el paquete [devtools (https://github.com/hadley/devtools):
 
 ```
-Install.packages ("devtools")
-Devtools :: install_github ("aprendeR", ref = "dev")
-library (aprendeR)
+Install.packages("devtools")
+Devtools :: install_github("aprendeR", ref = "dev")
+library(aprendeR)
 aprendeR()
 ```
 
@@ -75,7 +75,7 @@ Si desea participar, guarde este repositorio y realiza una nueva versión con tu
 
 ## Utilizar aprendeR en el aula
 
-Esperamos que los instructores hispano-parlantes de todo el mundo contribuyan para mejorar esta inicativa, no solamente usando <b>aprendeR</b> en sus aulas, sino también creando ms cursos en la bella lengua de Cervantes, engrosando la lista de <acronym>"OSLaR Coders"</acronym> (Open Source Latinoamerican R Coders). Condidero que este es un proyecto impresionantemente ambicioso, pero posible. 
+Esperamos que los instructores hispano-parlantes de todo el mundo contribuyan para mejorar esta inicativa, no solamente usando <b>aprendeR</b> en sus aulas, sino también creando ms cursos en la bella lengua de Cervantes, engrosando la lista de <acronym> "OSLaR Coders" </acronym> (Open Source Latinoamerican R Coders). Condidero que este es un proyecto impresionantemente ambicioso, pero posible. 
 
 Si usted es un instructor, por favor no dude en hacer lo mismo - de forma gratuita. Es decir, que aun cuando no estoy en contra de que sus estudiantes paguen para tomar un curso sobre R, aprender sobre algún contenido de índole computacional o matemático, o simplemente asistir a su institución, le exhorto que no cobre a las personas ***directamente*** por el uso de este software o contenido educativo, así como de otros similares.
 
