@@ -36,15 +36,15 @@ Durante el curso se puede solicitar a un estudiante que vea un video, que respon
 
 El progreso del usuario se guarda automáticamente para que pueda salir de la plataforma cuando el mismo usuario lo considere necesario, sin que ello sea obstáculo para que más tarde pueda reanudar sus lecciones sin perder el trabajo.
 
-Los cursos de <b>aprendeR</b> enfatizan la importancia del aprendizaje de los estudiantes de R, mediante e ejercitar el uso frecuente y directo de la consola de R. Se proveerá de un mecanismo de retorno de llamada, que fue sugerido y demostrado por primera vez para este propósito por Hadley Wickham, por medio de dicho mecanismo, se capturará la opinión de los estudiantes, para proporcionar una retroalimentación inmediata relevante para mejorar el material del curso actual.
+Los cursos de <b>aprendeR</b> enfatizan la importancia del aprendizaje de los estudiantes de R, mediante el uso frecuente y directo de la consola de R. Adems, se proveerá de un mecanismo de retorno de llamada, que fue sugerido y demostrado por primera vez para este propósito por Hadley Wickham, por medio de dicho mecanismo, se capturará la opinión de los estudiantes, para proporcionar una retroalimentación inmediata relevante para mejorar el material del curso actual.
 
-[enseñaR](https://github.com/Rafael-Resendiz/enseñaR) es un paquete R independiente que proporciona una caja de herramientas completa para los instructores de cursos en R. El contenido está escrito en [YAML](http://en.wikipedia.org/wiki/YAML) utilizando las útiles herramientas descritas en la página [instructoR](http://unim.mx/aprendeR/instructoR.html) de nuestro sitio web.
+[enseñaR](https://github.com/Rafael-Resendiz/enseñaR) será un paquete R independiente que proporciona una caja de herramientas completa para los instructores de cursos en R. El contenido está escrito en [YAML](http://en.wikipedia.org/wiki/YAML) utilizando las útiles herramientas descritas en la página [instructoR](http://unim.mx/aprendeR/instructoR.html) de nuestro sitio web.
 
 El programa inicia con `aprendeR ()`. Las funciones que controlan el comportamiento de los cursos de aprendeR son `bye ()` para salir, `skip ()` para saltar una pregunta, `main ()` para volver al menú principal, `play ()` para permitir la experimentación en la consola R sin interferencias de aprendeR, `nxt ()` para reanudar la interacción con aprendeR, e `info ()` para mostrar un menú de ayuda.
 
 ## Prerrequisitos
 
-Para acceder a este curso debes tener instalado <b>R</b>, pero, será mucho mejor si instalas también <b>RStudio</b>, así como el paquete <b>swirl</b>, <b>swirlify</b>, <b>rmarkdown</b> y, a<b>Latex</b> en cualquiera de sus versiones.
+Para acceder a este curso debe tener instalado <b>R</b>, pero, será mucho mejor si instala también <b>RStudio</b>, así como el paquete <b>swirl</b>, <b>swirlify</b>, <b>rmarkdown</b> y, a<b>Latex</b> en cualquiera de sus versiones.
 
 
 ## Instalación de aprendeR (desde CRAN)
