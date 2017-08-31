@@ -44,7 +44,7 @@ notificar <- function(){
 
     # Repeat back to them
     message("\n¿Todo está bien?\n")
-    message("Su nombre es: ", name, "\n", "La dirección de envío es: ", address)
+    message("Su nombre es: ", Nombre, "\n", "La dirección de envío es: ", emaila)
     
     sn <- select.list(c("Si", "No"), graphics = FALSE)
     if(sn == "Si") good <- TRUE
