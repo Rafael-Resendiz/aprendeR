@@ -13,41 +13,90 @@
 
 - Class: text
   Output: Si desea obtener más información sobre cualquier tema relacionado con
-     R, puede escribir help.start() en el indicador >, se abrirá un menú de recursos (ya sea dentro o RStudio su navegador web por defecto, dependiendo de su configuración).
-     Como alternativa, una simple búsqueda en Internet a menudo da la respuesta que estás buscando.
+     R, escriba el comando help.start() donde aparece el símbolo  >  , es necesario recordarle que, 
+     se desplegará un menú (el cual, puede aparecer en RStudio o bien en el navegador web que usted tenga habilitado como principal, dependiendo de su configuración).
+     En otras ocasiones, una simple búsqueda en Internet puede proporcionarle una respuesta más rápida y adecuada.
 
 - Class: cmd_question
-  Output: En su forma más simple, R puede ser utilizado como una calculadora interactiva. Escribe  5 + 7 y pulsa Intro.
-  CorrectAnswer: 5 + 7
-  AnswerTests: omnitest(correctExpr='5 + 7')
-  Hint: Escribe 5 + 7 y pulsa Intro.
+  Output: En su forma más simple, R puede ser utilizado como una calculadora interactiva. Veamos algunos ejemplos: 
+  En el caso de la suma, simplemente escribe 3 + 8 y pulsa Intro.
+  CorrectAnswer: 3 + 8
+  AnswerTests: omnitest(correctExpr='3 + 8')
+  Hint: Escribe 3 + 8 y pulsa Intro.
+  
+- Class: cmd_question
+  Output: Para utilizar R como calculadora en una resta solamente escribe  79 - 44 y pulsa Intro.
+  CorrectAnswer: 79 - 44
+  AnswerTests: omnitest(correctExpr='79 - 44')
+  Hint: Escribe 79 - 44 y pulsa Intro.
+  
+ - Class: cmd_question
+  Output: Si es una multiplicación, entonces tienes varias opciones, pues la multiplicación puede ser escrita de la siguiente manera:
+  (9)(8) = 9 * 8 = 9 x 8, aún cuando en el caso de R, en razón de la importancia de los parentesis, 
+  se prefiere utilizar el símbolo del asterisco * , para la multiplicación, 
+  salvo en lo que respecta a la elevacióna una potencia determinada... 
+  Por el momento, si quieres saber que pasaría en el caso de escribir con parentesis o con el simbolo x, puedes hacerlo, 
+  Si simplemente quieres intentar la multiplicación, por favor, escribe  9 * 8 y pulsa Intro.
+  CorrectAnswer: 9 * 8
+  AnswerTests: omnitest(correctExpr='9 * 8')
+  Hint: Escribe 9 * 8 y pulsa Intro.
+ 
+ - Class: cmd_question
+  Output: En el caso de una división, solamente se debe de escribir  6 / 2 y presionar Intro.
+  CorrectAnswer: 6 / 2
+  AnswerTests: omnitest(correctExpr='6 / 2')
+  Hint: Escribe 6 / 2 y pulsa Intro.
+  
+   - Class: cmd_question
+  Output: Por último, es posible, esribir palbras, letras o símbolos con sus consabidas restricciones, pero para que no se presente ningún problema en el moemnto de la lectura
+  o procesamiento, deberas anteponer las comillas simples o dobles. Por ejemplo, anota "me gusta R", despues presiona Intro.
+  CorrectAnswer: me gusta R
+  AnswerTests: omnitest(correctExpr='me gusta R')
+  Hint: Escribe 'me gusta R' y presiona Intro.
+  
+  
 
 - Class: text
-  Output: R simplemente imprime el resultado de 12 por defecto. Sin embargo, R es un lenguaje de programación y a menudo la razón por la que utiliza un lenguaje de programación, en oposición a una calculadora, es para automatizar algunos procesos o evitar repeticiones innecesarias.
+  Output: R simplemente imprime el resultado de la operación. Sin embargo, 
+  R como todo lenguaje de programación, es utilizado principalmente porque la principal función es la de  
+  automatizar procesos o iteraciones.
 
 - Class: text
-  Output: En este caso, es posible que desee utilizar nuestro resultado de arriba en un segundo cálculo. En lugar de volver a escribir 5 + 7 cada vez que lo necesitamos, podemos simplemente crear una nueva variable que almacena el resultado.
+  Output: En este caso, es posible que desee utilizar nuestro resultado de arriba en un segundo cálculo. 
+  Por ejemplo, en lugar de volver a escribir 9 * 8 cada vez que lo necesitemos, 
+  simplemente debemos crear una nueva variable donde se almacenará el resultado.
 
 - Class: text
-  Output: 'La forma en que asigna un valor a una variable en R es mediante el uso del operador de asignación, que es sólo un símbolo ''menor que'' seguido de un signo ''menos''. Eso se parece a esto: <-'
+  Output: 'Para asignar asignar un valor a una variable en R se debe usar el operador de asignación, 
+  que es reconocido como un símbolo ''menor que'' seguido de un signo ''menos'', cuyo resultado se aprece a una flecha <-'
 
 - Class: text
-  Output: Piense en el operador de asignación como una flecha. Usted está asignando el valor en el lado derecho de la flecha para el nombre de la variable en el lado izquierdo de la flecha.
+  Output: El nombre de la variable es el primero en escribirse, pues va al lado derecho del operador, es decir, la flecha. 
+  Mientras que del lado derecho, se anota el valor asignando a dicha variable.
 
 - Class: cmd_question
-  Output: Para asignar el resultado de 5 + 7 a una nueva variable llamada x, escriba x <- 5 + 7. Esto puede leerse como 'x toma el valor de 5 más 7'. Dese una oportunidad ahora.
-  CorrectAnswer: x <- 5 + 7
-  AnswerTests: any_of_exprs('x <- 5 + 7', 'x <- 7 + 5')
-  Hint: Escriba x <- 5 + 7. Es importante incluir un único espacio a cada lado de el operador de asignación, pero no ponga un espacio entre el `<` y el `-` que forman la flecha.
+  Output: Si usted desea asignar el resultado de una suma a una variable, tendría que proceder de manera similar a la siguiente.
+  Escriba primero el nombre de la variable, por ejemplo x, luego anote el operador de asignación, 
+  por último, anote los valores y operadores de la suma. Por ejemplo, cree una variable llamada x, anote después el operador de asignación y 
+  asignele el valor de sumar 43 unidades más 58 unidades.
+  Debera quedar una expresión como x <-  43 + 58. Esto significa que 'x almacena el valor de 43 más 58'. Ahora inténtelo usted solo.
+  CorrectAnswer: x <- 43 + 58
+  AnswerTests: any_of_exprs('x <- 43 + 58', 'x <- 58 + 43')
+  Hint: Escriba x <- 43 + 58. Para diferenciar en el código entre la variable, la asignación y el valor, puede incluir un espacio de separación entre estos elementos, 
+  pero nunca ponga un espacio entre el `<` y el `-` que forman la flecha, 
+  pues el resultado se manifestará como un valor lógico.
     
 - Class: text
-  Output: Se dará cuenta de que R no imprime el resultado de 12 en esta ocasión. cuando se utiliza el operador de asignación, R asume que no quieres ver el resultado inmediatamente, sino que tiene la intención de utilizar el resultado para otra cosa más adelante.
+  Output: Se dará cuenta que en esta ocasión, no se imprime el resultado de la operación en R. 
+  Cuando se utiliza el operador de asignación, R asume que no quieres ver el resultado inmediatamente, 
+  sino que haz almacenado dicho resultados con la intención de utilizarlo en otro momento.
     
 - Class: cmd_question
-  Output: Para ver el contenido de la variable x, simplemente escriba x y pulse Intro. Intentalo ahora.
+  Output: Para ver el contenido de la variable que ha denominado x, simplemente escriba la letra x en la consola de R y 
+  presione Intro. Inténtelo por favor, para que pueda ver el resultado.
   CorrectAnswer: x
   AnswerTests: omnitest(correctExpr='x')
-  Hint: Escribe x y pulsa Intro. Esto imprimirá automáticamente el valor de x.
+  Hint: Escribe x y presiona Intro. De esta manera se imprimirá automáticamente el valor de x.
 
 - Class: cmd_question
   Output: Ahora, almacene el resultado de x - 3 en una variable nueva llamada y.
