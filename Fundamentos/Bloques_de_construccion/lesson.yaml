@@ -48,7 +48,7 @@
   Hint: Escribe 6 / 2 y pulsa Intro.
   
    - Class: cmd_question
-  Output: Por último, es posible, esribir palbras, letras o símbolos con sus consabidas restricciones, pero para que no se presente ningún problema en el moemnto de la lectura
+  Output: Por último, es posible, esribir palabras, letras o símbolos con sus consabidas restricciones, pero para que no se presente ningún problema en el moemnto de la lectura
   o procesamiento, deberas anteponer las comillas simples o dobles. Por ejemplo, anota "me gusta R", despues presiona Intro.
   CorrectAnswer: me gusta R
   AnswerTests: omnitest(correctExpr='me gusta R')
@@ -57,14 +57,14 @@
   
 
 - Class: text
-  Output: R simplemente imprime el resultado de la operación. Sin embargo, 
+  Output: Observa que R simplemente imprime el resultado de la operación o anotación que realices. Sin embargo, 
   R como todo lenguaje de programación, es utilizado principalmente porque la principal función es la de  
   automatizar procesos o iteraciones.
 
 - Class: text
-  Output: En este caso, es posible que desee utilizar nuestro resultado de arriba en un segundo cálculo. 
-  Por ejemplo, en lugar de volver a escribir 9 * 8 cada vez que lo necesitemos, 
-  simplemente debemos crear una nueva variable donde se almacenará el resultado.
+  Output: Es posible que desee utilizar un resultado determinado en un segundo cálculo. 
+  Por ejemplo, en lugar de volver a escribir 9 * 8 cada vez que lo necesite, 
+  simplemente deberá crear una nueva variable donde se almacenará el resultado.
 
 - Class: text
   Output: 'Para asignar asignar un valor a una variable en R se debe usar el operador de asignación, 
