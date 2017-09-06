@@ -71,12 +71,12 @@
   que es reconocido como un símbolo ''menor que'' seguido de un signo ''menos'', cuyo resultado se aprece a una flecha <-'
 
 - Class: text
-  Output: El nombre de la variable es el primero en escribirse, pues va al lado derecho del operador, es decir, la flecha. 
+  Output: El nombre de la variable es el primero que debe escribirse, pues va al lado derecho del operador, es decir, la flecha. 
   Mientras que del lado derecho, se anota el valor asignando a dicha variable.
 
 - Class: cmd_question
   Output: Si usted desea asignar el resultado de una suma a una variable, tendría que proceder de manera similar a la siguiente.
-  Escriba primero el nombre de la variable, por ejemplo x, luego anote el operador de asignación, 
+  Escriba primero el nombre de la variable, por ejemplo ''x'', luego anote el operador de asignación, 
   por último, anote los valores y operadores de la suma. Por ejemplo, cree una variable llamada x, anote después el operador de asignación y 
   asignele el valor de sumar 43 unidades más 58 unidades.
   Debera quedar una expresión como x <-  43 + 58. Esto significa que 'x almacena el valor de 43 más 58'. Ahora inténtelo usted solo.
@@ -88,8 +88,8 @@
     
 - Class: text
   Output: Se dará cuenta que en esta ocasión, no se imprime el resultado de la operación en R. 
-  Cuando se utiliza el operador de asignación, R asume que no quieres ver el resultado inmediatamente, 
-  sino que haz almacenado dicho resultados con la intención de utilizarlo en otro momento.
+  Cuando se utiliza el operador de asignación, R asume que no quiere ver el resultado inmediatamente, 
+  sino que desea almacenar dicho resultado con la intención de utilizarlo en otro momento.
     
 - Class: cmd_question
   Output: Para ver el contenido de la variable que ha denominado x, simplemente escriba la letra x en la consola de R y 
