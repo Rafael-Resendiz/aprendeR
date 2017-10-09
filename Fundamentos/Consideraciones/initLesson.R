@@ -4,8 +4,8 @@
       # throughout the lesson.
       .get_course_path <- function(){
       tryCatch(aprendeR:::aprendeR_courses_dir(),
-         error = function(c) {file.path(find.package("aprendeR"),"Courses")}
+         error = function(c) {file.path(find.package("Fundamentos"),"Courses")}
           )
       }
 
-      mis_datos <- read.csv(file.path(.get_course_path(), "aprendeR", "Consideraciones", "matriz1b.csv"))
+      mis_datos <- read.csv(file.path(.get_course_path(), "Fundamentos", "Consideraciones", "matriz1b.csv"))
