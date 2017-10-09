@@ -10,7 +10,7 @@
 
 
 - Class: text
-Output: '¡Bienvenido al primer curso para aprendeR R en R!'
+Output: 'Bienvenido al primer curso para aprendeR R en R!'
 
 # Este archivo, esta escrito en yaml, especifica una lista sin nombre de listas con nombre.
 # Los elementos de la lista sin nombre se indican con guiones, seguidos de espacios (-).
