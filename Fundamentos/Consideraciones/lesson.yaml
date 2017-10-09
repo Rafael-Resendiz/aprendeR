@@ -20,7 +20,7 @@
 # Es lo primero que aparece cuando "aprende" ejecuta la lección.
 
 - Class: text
-Output: ¡Bienvenido al primer curso para aprendeR R en R!
+Output: '¡Bienvenido al primer curso para aprendeR R en R!'
 
 - Class: text
 Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R."
@@ -46,7 +46,7 @@ Output: "Puesto que, una lección de */aprende/* consiste en archivos de texto, 
 # Una Clase de elemento, que en este caso es "figure", dice a "aprende" cómo procesarla.
 # Para un elemento de la figura de clase, "aprende" usará como fuente el archivo dado por Figure key.
 # En este caso, el archivo que se obtiene es displayLessonFile.R. (La ruta de acceso -path- es relativa a lesson.yaml.)
-#
+
 
 - Class: figure
 Output: "Si el archivo apareció en un editor apropiado, todo va muy bien. De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'aprende_temp' de su directorio de trabajo, que debe abrir en su editor de archivos favorito. Disculpe en caso de cualquier inconveniente :P."
@@ -60,7 +60,7 @@ Output: "El archivo, lesson.yaml, está escrito en Another Another Markup Langua
 # Esta pregunta especifica una serie de opciones posibles, una respuesta correcta,
 # una prueba para la respuesta del usuario y
 # una pista en caso de que la respuesta del usuario sea incorrecta.
-#
+
 - Class: mult_question
 Output: "La Clase de un elemento le dice a */aprende/* cómo procesar el elemento. Todos tendrán una Clase (Class) y una salida (Output). Una figura tendrá las claves Figure and FigureType. La clave Figure indica un archivo de fuente. Encuentra el primer elemento del tipo Figure en lesson.yaml. ¿Cuál es el nombre del archivo */aprende/* originado cuando procesó ese elemento?"
 AnswerChoices: displayLessonFile.R;new;swirl coders
