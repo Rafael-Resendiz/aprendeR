@@ -3,8 +3,8 @@
       # the user's working directory and thus be accessible to them
       # throughout the lesson.
       .get_course_path <- function(){
-      tryCatch(aprendeR:::aprendeR_courses_dir(),
-         error = function(c) {file.path(find.package("Fundamentos"),"Courses")}
+      tryCatch(aprendeR:::Fundamentos_courses_dir(),
+         error = function(c) {file.path(find.package("Consideraciones"),"Courses")}
           )
       }
 
