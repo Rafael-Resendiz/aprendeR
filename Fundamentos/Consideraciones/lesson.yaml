@@ -3,7 +3,7 @@
 # Los elementos de cada lista con nombre se indican mediante pares clave: valor.
 # Tenga en cuenta que los elementos estan alineados muy cuidadosamente.
 # Los pares clave:valor, siempre comienzan con dos espacios desde el principio de una linea, por ejemplo.
-# Las lineas que comienzan con un hashtag, #, son comentarios.
+# Las lineas que comienzan con un hashtag, #, son comentarios simplemente.
 
 # La primera lista con nombre es por conveniencia para el uso interno del curso "aprende".
 
