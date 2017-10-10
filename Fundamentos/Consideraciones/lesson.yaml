@@ -24,7 +24,7 @@
 - Class: text
   Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, 
 como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R.
-   En primer lugar es menester aclarar que existen dos tipos de cursos:
+  'En primer lugar es menester aclarar que existen dos tipos de cursos:'
 
 - Class: text
   Output: El primer grupo de cursos, culminan con pruebas personalizadas, pero solamente cubren aspectos básicos.
