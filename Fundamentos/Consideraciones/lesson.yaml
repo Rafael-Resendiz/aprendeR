@@ -22,19 +22,14 @@
 # Es lo primero que aparece cuando "aprende" ejecuta la lección.
 
 - Class: text
-  Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, 
-como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R.
+  Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R.
   'En primer lugar es menester aclarar que existen dos tipos de cursos:'
 
 - Class: text
-  Output: El primer grupo de cursos, culminan con pruebas personalizadas, pero solamente cubren aspectos básicos.
-El segundo grupo de cursos, abarca temas especiales como el graficado y diseño, así como temas introductorios 
-a minería de datos.
+  Output: El primer grupo de cursos, culminan con pruebas personalizadas, pero solamente cubren aspectos básicos. El segundo grupo de cursos, abarca temas especiales como el graficado y diseño, así como temas introductorios a minería de datos.
 
 - Class: text
-  Output: Probablemente estos útimos temas sean más útiles como puntos de partida para crear material propio.
-Debe tener en cuenta que las primeras lecciones son para tener una perspectiva rápida...
-Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo esfuerzo.
+  Output: Probablemente estos útimos temas sean más útiles como puntos de partida para crear material propio. Debe tener en cuenta que las primeras lecciones son para tener una perspectiva rápida... Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo esfuerzo.
 
 - Class: text
 Output: "He de comentar que estos cursos siguen el diseño del paquete swirl y swirlify, por lo que agradecemos a todo el equipo de Swirl Coder's "
