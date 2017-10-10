@@ -29,14 +29,13 @@
 
 - Class: text
   Output: Probablemente estos útimos temas sean más útiles como puntos de partida para crear material propio. Debe tener en cuenta que las primeras lecciones son para tener una perspectiva rápida... Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo esfuerzo.
+- Class: text
+Output: He de comentar que estos cursos siguen el diseño del paquete swirl y swirlify, por lo que agradecemos a todo el equipo de Swirl Coder's
+
+
 
 - Class: text
-Output: "He de comentar que estos cursos siguen el diseño del paquete swirl y swirlify, por lo que agradecemos a todo el equipo de Swirl Coder's "
-
-
-
-- Class: text
-Output: "Puesto que, una lección de */aprende/* consiste en archivos de texto, lo mejor es discutir un concepto mientras se muestra el archivo asociado en paralelo. Intentaremos hacerlo automáticamente, pero el éxito depende del contexto. Si está ejecutando esta lección en una terminal x, por ejemplo, y su editor de sistema es vi, los archivos probablemente aparecerán en el mismo terminal y usted tendrá que cerrar el editor antes de reanudar la lección. Si pulsa la tecla Intro ahora, intentaremos mostrar el archivo que contiene el texto que está leyendo actualmente."
+Output: Puesto que, una lección de */aprende/* consiste en archivos de texto, lo mejor es discutir un concepto mientras se muestra el archivo asociado en paralelo. Intentaremos hacerlo automáticamente, pero el éxito depende del contexto. Si está ejecutando esta lección en una terminal x, por ejemplo, y su editor de sistema es vi, los archivos probablemente aparecerán en el mismo terminal y usted tendrá que cerrar el editor antes de reanudar la lección. Si pulsa la tecla Intro ahora, intentaremos mostrar el archivo que contiene el texto que está leyendo actualmente.
 
 # Una Clase de elemento, que en este caso es "figure", dice a "aprende" cómo procesarla.
 # Para un elemento de la figura de clase, "aprende" usará como fuente el archivo dado por Figure key.
@@ -44,12 +43,12 @@ Output: "Puesto que, una lección de */aprende/* consiste en archivos de texto, 
 
 
 - Class: figure
-Output: "Si el archivo apareció en un editor apropiado, todo va muy bien. De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'aprende_temp' de su directorio de trabajo, que debe abrir en su editor de archivos favorito. Disculpe en caso de cualquier inconveniente :P."
+Output: Si el archivo apareció en un editor apropiado, todo va muy bien. De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'aprende_temp' de su directorio de trabajo, que debe abrir en su editor de archivos favorito. Disculpe en caso de cualquier inconveniente :P.
 Figure: displayLessonFile.R
 FigureType: new
 
 - Class: text
-Output: "El archivo, lesson.yaml, está escrito en Another Another Markup Language (yaml.) Especifica una lista de listas. La lista externa, cuyos elementos son acusados por líneas que comienzan con un guión seguido por un espacio (-), no tiene nombre. Las listas internas son nombradas, y sus elementos están indicados por pares nombre: valor que están muy cuidadosamente alineados, el nombre comienza en el tercer espacio de una línea. Yaml utiliza indentaciones más que paréntesis o entre corchetes para indicar divisiones sintácticas, por lo que hay que tener cuidado al respecto. Las líneas que comienzan con hashtags (#) son comentarios."
+Output: El archivo, lesson.yaml, está escrito en Another Another Markup Language (yaml.) Especifica una lista de listas. La lista externa, cuyos elementos son acusados por líneas que comienzan con un guión seguido por un espacio (-), no tiene nombre. Las listas internas son nombradas, y sus elementos están indicados por pares nombre: valor que están muy cuidadosamente alineados, el nombre comienza en el tercer espacio de una línea. Yaml utiliza indentaciones más que paréntesis o entre corchetes para indicar divisiones sintácticas, por lo que hay que tener cuidado al respecto. Las líneas que comienzan con hashtags (#) son comentarios.
 
 # Una pregunta de opción múltiple.
 # Esta pregunta especifica una serie de opciones posibles, una respuesta correcta,
@@ -57,20 +56,20 @@ Output: "El archivo, lesson.yaml, está escrito en Another Another Markup Langua
 # una pista en caso de que la respuesta del usuario sea incorrecta.
 
 - Class: mult_question
-Output: "La Clase de un elemento le dice a */aprende/* cómo procesar el elemento. Todos tendrán una Clase (Class) y una salida (Output). Una figura tendrá las claves Figure and FigureType. La clave Figure indica un archivo de fuente. Encuentra el primer elemento del tipo Figure en lesson.yaml. ¿Cuál es el nombre del archivo */aprende/* originado cuando procesó ese elemento?"
+Output: La Clase de un elemento le dice a */aprende/* cómo procesar el elemento. Todos tendrán una Clase (Class) y una salida (Output). Una figura tendrá las claves Figure and FigureType. La clave Figure indica un archivo de fuente. Encuentra el primer elemento del tipo Figure en lesson.yaml. ¿Cuál es el nombre del archivo */aprende/* originado cuando procesó ese elemento?
 AnswerChoices: displayLessonFile.R;new;swirl coders
 CorrectAnswer: displayLessonFile.R
 AnswerTests: omnitest(correctVal= 'displayLessonFile.R')
 Hint: "El FileType es nuevo (new). La lección fue escrita por Rafael Resendiz Ramirez."
 
 - Class: text
-Output: "En una pregunta de opción múltiple, las opciones son dadas con el par clave-valor (key-value) de AnswerChoices. Las opciones están separadas por punto y coma. Este es un vestigio de un formato anterior. La sintaxis de punto y coma puede ser reemplazada por la sintaxis estándar de yaml en futuras versiones de */aprende/*."
+Output: En una pregunta de opción múltiple, las opciones son dadas con el par clave-valor (key-value) de AnswerChoices. Las opciones están separadas por punto y coma. Este es un vestigio de un formato anterior. La sintaxis de punto y coma puede ser reemplazada por la sintaxis estándar de yaml en futuras versiones de */aprende/*.
 
 - Class: text
-Output: "Las preguntas de opción múltiple y otras preguntas deben especificarse en AnswerTests para evaluar si la respuesta de un usuario es correcta. Se puede especificar más de una prueba, siempre que las pruebas estén separadas por punto y coma. Una vez más, esta sintaxis de punto y coma es reliquial y puede desaparecer en futuras versiones de */aprende/*."
+Output: Las preguntas de opción múltiple y otras preguntas deben especificarse en AnswerTests para evaluar si la respuesta de un usuario es correcta. Se puede especificar más de una prueba, siempre que las pruebas estén separadas por punto y coma. Una vez más, esta sintaxis de punto y coma es reliquial y puede desaparecer en futuras versiones de */aprende/*.
 
 - Class: mult_question
-Output: "Las preguntas de opción múltiple, como ésta, se usan a menudo para su revisión. En este curso, ¿qué debe hacer si se le pide que busque un archivo que no aparezca automáticamente?"
+Output: Las preguntas de opción múltiple, como ésta, se usan a menudo para su revisión. En este curso, ¿qué debe hacer si se le pide que busque un archivo que no aparezca automáticamente?
 AnswerChoices: "Busque el archivo en el subdirectorio aprende_temp de su directorio de trabajo.; Envíe un correo electrónico amenazador al autor del curso.; Publique un problema en el repositorio del curso."
 CorrectAnswer: Busque el archivo en el subdirectorio aprende_temp de su directorio de trabajo.
 AnswerTests: omnitest(correctVal= 'Busque el archivo en el subdirectorio swirl_temp de su directorio de trabajo.')
@@ -79,23 +78,23 @@ Hint: "Por favor, No publique un problema ni envíe un correo electrónico enoja
 
 # A series of command questions
 - Class: cmd_question
-Output: "Omnitest es el más utilizado de las pruebas proporcionadas por */aprende/*. Una lección ilustrando su uso se presentará más adelante en este curso. Puede comprobar un valor, como en las preguntas de opción múltiple anteriores, o puede comprobar una expresión introducida en la consola R. La pregunta ilustra esto último. Nuestro archivo de lección se copió en su directorio de trabajo como lesson.yaml. Cargue el archivo en su área de trabajo utilizando lesson <- yaml.load_file('aprende_temp/lesson.yaml')."
+Output: Omnitest es el más utilizado de las pruebas proporcionadas por */aprende/*. Una lección ilustrando su uso se presentará más adelante en este curso. Puede comprobar un valor, como en las preguntas de opción múltiple anteriores, o puede comprobar una expresión introducida en la consola R. La pregunta ilustra esto último. Nuestro archivo de lección se copió en su directorio de trabajo como lesson.yaml. Cargue el archivo en su área de trabajo utilizando lesson <- yaml.load_file('aprende_temp/lesson.yaml').
 CorrectAnswer: lesson <- yaml.load_file('aprende_temp/lesson.yaml')
 AnswerTests: omnitest(correctExpr="lesson <- yaml.load_file('aprende_temp/lesson.yaml')")
 Hint: "Introduzca lesson <- yaml.load_file('swirl_temp/lesson.yaml'), o una expresión equivalente."
 
 - Class: cmd_question
-Output: "Mostrar que la variable, lesson, es una lista usando class(lesson)."
+Output: Mostrar que la variable, lesson, es una lista usando class(lesson).
 CorrectAnswer: class(lesson)
 AnswerTests: omnitest(correctExpr='class(lesson)')
 Hint: "Introduzca class(lesson)"
 
 - Class: cmd_question
-Output: "La cuestión que usted está mirando es el elemento número 12 en la lección. Despleguela como una lista con nombre al ingresar lesson[[12]]."
+Output: La cuestión que usted está mirando es el elemento número 12 en la lección. Despleguela como una lista con nombre al ingresar lesson[[12]].
 CorrectAnswer: lesson[[12]]
 AnswerTests: omnitest(correctExpr='lesson[[12]]')
 Hint: "Introduzca lesson[[12]]."
 
 - Class: text
-Output: "Una lección básica de aprende se puede componer utilizando sólo las cuatro clases y las pruebas ilustradas hasta ahora. Este archivo, llamado lesson01.yaml puede ser copiado y modificado, por ejemplo. Sin embargo, los archivos de lecciones están soportados por varios otros tipos de archivos que son el tema de la lección siguiente."
+Output: Una lección básica de aprende se puede componer utilizando sólo las cuatro clases y las pruebas ilustradas hasta ahora. Este archivo, llamado lesson01.yaml puede ser copiado y modificado, por ejemplo. Sin embargo, los archivos de lecciones están soportados por varios otros tipos de archivos que son el tema de la lección siguiente.
 
