@@ -48,7 +48,7 @@
   FigureType: new
 
 - Class: text
-  Output: El archivo, lesson.yaml, está escrito en Another Another Markup Language (yaml.) Especifica una lista de listas. La lista externa, cuyos elementos son acusados por líneas que comienzan con un guión seguido por un espacio (-), no tiene nombre. Las listas internas son nombradas, y sus elementos están indicados por pares nombre: valor que están muy cuidadosamente alineados, el nombre comienza en el tercer espacio de una línea. Yaml utiliza indentaciones más que paréntesis o entre corchetes para indicar divisiones sintácticas, por lo que hay que tener cuidado al respecto. Las líneas que comienzan con hashtags (\#) son comentarios.
+  Output: El archivo, lesson.yaml, está escrito en Another Another Markup Language (yaml.) Especifica una lista de listas. La lista externa, cuyos elementos son acusados por líneas que comienzan con un guión seguido por un espacio (-), no tiene nombre. Las listas internas son nombradas, y sus elementos están indicados por pares nombre \: valor que están muy cuidadosamente alineados, el nombre comienza en el tercer espacio de una línea. Yaml utiliza indentaciones más que paréntesis o entre corchetes para indicar divisiones sintácticas, por lo que hay que tener cuidado al respecto. Las líneas que comienzan con hashtags (\#) son comentarios.
 
 # Una pregunta de opción múltiple.
 # Esta pregunta especifica una serie de opciones posibles, una respuesta correcta,
