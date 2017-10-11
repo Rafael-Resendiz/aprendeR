@@ -3,8 +3,6 @@
 
 
 file <- system.file("lesson.yaml", package="Consideraciones")
-
-
 cat("Displaying: ", file, ":\n", sep="")
 displayCode(file)
 
