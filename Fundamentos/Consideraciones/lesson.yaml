@@ -22,20 +22,32 @@
 # Es lo primero que aparece cuando "aprende" ejecuta la lección.
 
 - Class: text
-  Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R. 'En primer lugar es menester aclarar que existen dos tipos de cursos:'
+  Output: Espero que estos cursos le sirvan no solamente como recursos interactivas, sino también, 
+    como ejemplo para que usted pueda ser parte de los autores de nuevos cursos relacionados con R. 
+    'En primer lugar es menester aclarar que existen dos tipos de cursos:'
 
 - Class: text
-  Output: El primer grupo de cursos, culminan con pruebas personalizadas, pero solamente cubren aspectos básicos. El segundo grupo de cursos, abarca temas especiales como el graficado y diseño, así como temas introductorios a minería de datos.
+  Output: El primer grupo de cursos, culminan con pruebas personalizadas, pero solamente cubren aspectos básicos. 
+    El segundo grupo de cursos, abarca temas especiales como el graficado y diseño, así como temas introductorios a
+    minería de datos.
 
 - Class: text
-  Output: Probablemente estos útimos temas sean más útiles como puntos de partida para crear material propio. Debe tener en cuenta que las primeras lecciones son para tener una perspectiva rápida... Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo esfuerzo.
+  Output: Probablemente estos útimos temas sean más útiles como puntos de partida para crear material propio. 
+    Debe tener en cuenta que las primeras lecciones son para tener una perspectiva rápida... 
+    Quizá incluso le sirvan a usted para escribir una buena lección con un mínimo esfuerzo.
 - Class: text
-  Output: He de comentar que estos cursos siguen el diseño del paquete swirl y swirlify, por lo que agradecemos a todo el equipo de Swirl Coder's
+  Output: He de comentar que estos cursos siguen el diseño del paquete swirl y swirlify, 
+    por lo que agradecemos a todo el equipo de Swirl Coder's
 
 
 
 - Class: text
-  Output: Puesto que, una lección de */aprende/* consiste en archivos de texto, lo mejor es discutir un concepto mientras se muestra el archivo asociado en paralelo. Intentaremos hacerlo automáticamente, pero el éxito depende del contexto. Si está ejecutando esta lección en una terminal x, por ejemplo, y su editor de sistema es vi, los archivos probablemente aparecerán en el mismo terminal y usted tendrá que cerrar el editor antes de reanudar la lección. Si pulsa la tecla Intro ahora, intentaremos mostrar el archivo que contiene el texto que está leyendo actualmente.
+  Output: 'Puesto que, una lección de */aprende/* consiste en archivos de texto, lo mejor es discutir un concepto, 
+    mientras se muestra el archivo asociado en paralelo. Intentaremos hacerlo automáticamente, 
+    pero el éxito depende del contexto. Si está ejecutando esta lección en una terminal x, 
+    por ejemplo, y su editor de sistema es vi, los archivos probablemente aparecerán en el mismo terminal 
+    y usted tendrá que cerrar el editor antes de reanudar la lección. 
+    Si pulsa la tecla Intro ahora, intentaremos mostrar el archivo que contiene el texto que está leyendo actualmente.'
 
 # Una Clase de elemento, que en este caso es "figure", dice a "aprende" cómo procesarla.
 # Para un elemento de la figura de clase, "aprende" usará como fuente el archivo dado por Figure key.
@@ -43,7 +55,10 @@
 
 
 - Class: figure
-  Output: Si el archivo apareció en un editor apropiado, todo va muy bien. De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'aprende_temp' de su directorio de trabajo, que debe abrir en su editor de archivos favorito. Disculpe en caso de cualquier inconveniente :P.
+  Output: Si el archivo apareció en un editor apropiado, todo va muy bien. 
+    De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'aprende_temp' 
+    de su directorio de trabajo, que debe abrir en su editor de archivos favorito. 
+    Disculpe en caso de cualquier inconveniente :P.
   Figure: displayLessonFile.R
   FigureType: new
 
