@@ -46,6 +46,14 @@ El programa inicia con `aprendeR ()`. Las funciones que controlan el comportamie
 
 Para acceder a este curso debe tener instalado <b>R</b>, pero, será mucho mejor si instala también <b>RStudio</b>, así como el paquete <b>swirl</b>, <b>swirlify</b>, <b>rmarkdown</b> y, a<b>Latex</b> en cualquiera de sus versiones.
 
+## Instalación de swirl
+
+Para instalar swirl, ingresa los siguientes comandos en la consola de R y selecciona el idioma español para este curso:
+```
+install.packages("swirl", dependencies = TRUE)
+library("swirl")
+select_language()
+```
 
 ## Instalación de aprendeR (desde CRAN)
 
@@ -80,6 +88,14 @@ install_course_github("aprendeR", "Fundamentos")
 ```
 library(aprendeR)
 install_course_zip("ruta/al/archivo/descargado/aprendeR.zip")
+```
+## O
+
+```
+library(swirl)
+
+install_course_zip("ruta/al/archivo/descargado/aprendeR-master.zip", multi = TRUE, which_course = "Fundamentos")
+
 ```
 
 ## Después de la instalación en Mac OS.
