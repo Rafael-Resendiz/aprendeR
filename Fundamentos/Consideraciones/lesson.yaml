@@ -106,9 +106,9 @@
     La pregunta ilustra esto último. 
     Nuestro archivo de lección se copió en su directorio de trabajo como lesson.yaml. 
     Cargue el archivo en su área de trabajo utilizando
-    file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
-  CorrectAnswer: file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
-  AnswerTests: omnitest(correctExpr="file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))")
+    file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', 'lesson.yaml'))
+  CorrectAnswer: file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', 'lesson.yaml'))
+  AnswerTests: omnitest(correctExpr="file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', 'lesson.yaml'))")
   Hint: "Introduzca file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', 'lesson.yaml')), o una expresión equivalente."
   
 # lesson <- yaml.load_file('/Users/rafaelresendiz/aprendeR/Fundamentos/Consideraciones/lesson.yaml')
