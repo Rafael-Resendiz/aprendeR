@@ -91,8 +91,8 @@
 
 - Class: mult_question
   Output: Las preguntas de opción múltiple, como ésta, se usan a menudo para su revisión. En este curso, ¿qué debe hacer si se le pide que busque un archivo que no aparezca automáticamente?
-  AnswerChoices: 'Busque el archivo en el subdirectorio aprendeR_temp de su directorio de trabajo.; Envíe un correo electrónico amenazador al autor del curso.; Publique un problema en el repositorio del curso.'
-  CorrectAnswer: 'Busque el archivo en el subdirectorio aprendeR_temp de su directorio de trabajo.'
+  AnswerChoices: Busque el archivo en el subdirectorio aprendeR_temp de su directorio de trabajo.; Envíe un correo electrónico amenazador al autor del curso.; Publique un problema en el repositorio del curso.
+  CorrectAnswer: Busque el archivo en el subdirectorio aprendeR_temp de su directorio de trabajo.
   AnswerTests: omnitest(correctVal= 'Busque el archivo en el subdirectorio aprendeR_temp de su directorio de trabajo.')
   Hint: "Por favor, No publique un problema ni envíe un correo electrónico enojado. Todos somos voluntarios con exceso de trabajo."
 
