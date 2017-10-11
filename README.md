@@ -119,6 +119,10 @@ Después debers seguir las instrucciones y seleccionar el curso "aprendeR".
 Una vez instalado el curso, cada vez que desees acceder a las prácticas debes ingresar:
 
 ```
+swirl()
+```
+o
+```
 aprendeR()
 ```
 
