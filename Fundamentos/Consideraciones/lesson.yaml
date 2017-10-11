@@ -109,8 +109,7 @@
     file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
   CorrectAnswer: file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
   AnswerTests: omnitest(correctExpr="file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))")
-  Hint: "Introduzca file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml")), 
-    o una expresión equivalente."
+  Hint: "Introduzca file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', 'lesson.yaml')), o una expresión equivalente."
   
 # lesson <- yaml.load_file('/Users/rafaelresendiz/aprendeR/Fundamentos/Consideraciones/lesson.yaml')
 
