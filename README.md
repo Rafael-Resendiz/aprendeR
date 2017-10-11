@@ -94,7 +94,8 @@ install_course_zip("ruta/al/archivo/descargado/aprendeR.zip")
 ```
 library(swirl)
 
-install_course_zip("ruta/al/archivo/descargado/aprendeR-master.zip", multi = TRUE, which_course = "Fundamentos")
+install_course_zip("ruta/al/archivo/descargado/aprendeR-master.zip", 
+multi = TRUE, which_course = "Fundamentos")
 
 ```
 
