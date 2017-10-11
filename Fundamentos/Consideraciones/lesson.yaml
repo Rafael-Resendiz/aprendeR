@@ -100,9 +100,9 @@
 # A series of command questions
 - Class: cmd_question
   Output: Omnitest es el más utilizado de las pruebas proporcionadas por *aprendeR*. Una lección ilustrando su uso se presentará más adelante en este curso. Puede comprobar un valor, como en las preguntas de opción múltiple anteriores, o puede comprobar una expresión introducida en la consola R. La pregunta ilustra esto último. Nuestro archivo de lección se copió en su directorio de trabajo como lesson.yaml. Cargue el archivo en su área de trabajo utilizando lesson <- yaml.load_file('aprende_temp/lesson.yaml').
-  CorrectAnswer: lesson <- yaml.load_file(('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml')
-  AnswerTests: omnitest(correctExpr="lesson <- yaml.load_file(('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml')")
-  Hint: "Introduzca lesson <- yaml.load_file(('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml'), o una expresión equivalente."
+  CorrectAnswer: lesson <- yaml.load_file('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml')
+  AnswerTests: omnitest(correctExpr="lesson <- yaml.load_file('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml')")
+  Hint: "Introduzca lesson <- yaml.load_file('~/aprendeR/Fundamentos/Consideraciones/lesson.yaml'), o una expresión equivalente."
   
 # lesson <- yaml.load_file('/Users/rafaelresendiz/aprendeR/Fundamentos/Consideraciones/lesson.yaml')
 
