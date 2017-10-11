@@ -59,8 +59,8 @@
     De lo contrario, debe haber un archivo llamado 'lesson.yaml' en el subdirectorio 'Fundamentos/Consideraciones' 
     de su directorio de trabajo, que debe abrir en su editor de archivos favorito. 
     Disculpe en caso de cualquier inconveniente :P.
-  # Figure: displayLessonFile.R
-  Figure: file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
+  Figure: displayLessonFile.R
+  # Figure: file.show(file.path('~/aprendeR/Fundamentos/Consideraciones', "lesson.yaml"))
   FigureType: new
 
 - Class: text
